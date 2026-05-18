@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frida Vinos y Sabores — Boutique de vinos en Salta. Descubrí nuestra selección de tintos, blancos, rosados, espumantes y más.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Frida — Vinos y Sabores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo_frida.jpg" alt="Frida" class="logo-img">
+                <span class="logo-text">Frida</span>
+                <span class="logo-subtitle">Vinos y Sabores</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#tintos" class="nav-link active" data-category="tintos">Tintos</a>
+                <a href="#blancos" class="nav-link" data-category="blancos">Blancos</a>
+                <a href="#rosados" class="nav-link" data-category="rosados">Rosados</a>
+                <a href="#especiales" class="nav-link" data-category="especiales">Especiales</a>
+                <a href="#espumantes" class="nav-link" data-category="espumantes">Espumantes</a>
+                <a href="#ofertas" class="nav-link" data-category="ofertas">Ofertas</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero_wine_banner.png" alt="Frida Vinos" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">✦ BOUTIQUE DE VINOS ✦</div>
+            <h1 class="hero-title">Frida</h1>
+            <p class="hero-tagline">Vinos y Sabores</p>
+            <div class="hero-divider">
+                <span class="divider-line"></span>
+                <span class="divider-icon">🍷</span>
+                <span class="divider-line"></span>
+            </div>
+            <p class="hero-description">Descubrí nuestra selección de productos, con el asesoramiento y la calidez que nos caracterizan.</p>
+            <a href="#tintos" class="hero-cta">Explorar Menú</a>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Deslizá</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- Info Banner -->
+    <div class="info-banner">
+        <p>Precios válidos para pagos en <strong>efectivo o transferencia</strong>. Podés retirar tu pedido por <strong>Zona Centro (Av. Sarmiento y España)</strong> o recibirlo sin costo adicional en toda la Zona Centro.</p>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Category Tabs -->
+        <div class="category-tabs" id="categoryTabs">
+            <div class="tabs-container">
+                <button class="tab-btn active" data-category="tintos" id="tab-tintos">
+                    <span class="tab-icon">▪</span> Tintos <span class="tab-count" id="count-tintos"></span>
+                </button>
+                <button class="tab-btn" data-category="blancos" id="tab-blancos">
+                    <span class="tab-icon">▪</span> Blancos <span class="tab-count" id="count-blancos"></span>
+                </button>
+                <button class="tab-btn" data-category="rosados" id="tab-rosados">
+                    <span class="tab-icon">▪</span> Rosados <span class="tab-count" id="count-rosados"></span>
+                </button>
+                <button class="tab-btn" data-category="especiales" id="tab-especiales">
+                    <span class="tab-icon">▪</span> Especiales <span class="tab-count" id="count-especiales"></span>
+                </button>
+                <button class="tab-btn" data-category="espumantes" id="tab-espumantes">
+                    <span class="tab-icon">▪</span> Espumantes <span class="tab-count" id="count-espumantes"></span>
+                </button>
+                <button class="tab-btn" data-category="ofertas" id="tab-ofertas">
+                    <span class="tab-icon">▪</span> Ofertas <span class="tab-count" id="count-ofertas"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search & Filter -->
+        <div class="filter-bar">
+            <div class="filter-container">
+                <div class="search-box">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Buscar vino, bodega, origen..." class="search-input">
+                </div>
+                <div class="filter-badges" id="filterBadges"></div>
+            </div>
+        </div>
+
+        <!-- Products Grid -->
+        <section class="products-section" id="productsSection">
+            <div class="section-header">
+                <h2 class="section-title" id="sectionTitle">Vinos Tintos</h2>
+                <p class="section-subtitle" id="sectionSubtitle">Selección de tintos de bodegas argentinas</p>
+            </div>
+            <div class="products-grid" id="productsGrid"></div>
+            <div class="no-results" id="noResults" style="display:none;">
+                <span class="no-results-icon">🔍</span>
+                <p>No se encontraron productos con ese criterio.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-card" id="modalCard">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+            <div class="modal-inner">
+                <div class="modal-image-section">
+                    <img src="" alt="" class="modal-img" id="modalImg">
+                </div>
+                <div class="modal-info-section">
+                    <span class="modal-brand-badge" id="modalBrand"></span>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <div class="modal-divider"></div>
+                    <div class="modal-details" id="modalDetails"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo_frida.jpg" alt="Frida" class="footer-logo-img">
+                <span class="footer-brand">Frida</span>
+                <span class="footer-tagline">Vinos y Sabores — Salta, Argentina</span>
+            </div>
+            <div class="footer-contact">
+                <a href="https://wa.me/541127988681" target="_blank" rel="noopener">📱 WhatsApp</a>
+                <a href="mailto:fridavinosysabores@gmail.com">✉️ fridavinosysabores@gmail.com</a>
+            </div>
+            <p class="footer-note">Precios válidos para pagos en efectivo o transferencia.</p>
+            <p class="footer-copy">© 2026 Frida Vinos y Sabores. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

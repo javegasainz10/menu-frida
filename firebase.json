@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "catalogo_frida/**",
+      "**.py",
+      "README.md"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|webp)",
+        "headers": [
+          { "key": "Cache-Control", "value": "max-age=604800" }
+        ]
+      }
+    ]
+  }
+}
