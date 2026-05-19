@@ -15,7 +15,7 @@ const PRODUCTS = [
     origin: "Colalao del Valle, Tucumán",
     description: "Blend de Shiraz, Malbec y Cabernet Sauvignon, intenso y con gran concentración. Vino de altura con 90 puntos Tim Atkin.",
     price: 12400,
-    image: "images/Altos La Ciénaga Vino Artesanal 2015.jpg"
+    image: "fotos_botellas/Altos La Ciénaga Vino Artesanal 2015.webp"
   },
   {
     id: "t-the-thorn-reserva-malbec-2024",
@@ -25,7 +25,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Malbec equilibrado con 4 meses en roble francés. Frutas del bosque y un toque especiado que lo vuelve elegante y fácil de disfrutar.",
     price: 13500,
-    image: "images/The Thorn Reserva Malbec 2024.jpg"
+    image: "fotos_botellas/The Thorn Reserva Malbec 2024.webp"
   },
   {
     id: "t-antropo-blend-de-tintas-2024",
@@ -35,7 +35,7 @@ const PRODUCTS = [
     origin: "Jujuy",
     description: "Blend Cabernet Franc y Cabernet Sauvignon de la Quebrada de Humahuaca, con crianza parcial en roble. Combina frescura y equilibrio. Notas de fruta roja y un toque de roble que aporta suavidad.",
     price: 16700,
-    image: "images/Antropo Blend de Tintas 2024.jpg"
+    image: "fotos_botellas/Antropo Blend de Tintas 2024.webp"
   },
   {
     id: "t-taimado-malbec-2023",
@@ -45,7 +45,7 @@ const PRODUCTS = [
     origin: "Vista Flores, Valle de Uco, Mendoza",
     description: "Malbec joven, fresco y frutado. Ligero, vibrante y muy fácil de tomar.",
     price: 11100,
-    image: "images/Taimado Malbec 2023.jpg"
+    image: "fotos_botellas/Taimado Malbec 2023.webp"
   },
   {
     id: "t-taimado-baby-malbec-2024",
@@ -55,7 +55,7 @@ const PRODUCTS = [
     origin: "Vista Flores, Valle de Uco, Mendoza",
     description: "Malbec joven y frutal, con un perfil fresco y amable. Ideal para quienes buscan un tinto suave.",
     price: 8300,
-    image: "images/Taimado Baby Malbec 2024.jpg"
+    image: "fotos_botellas/Taimado Baby Malbec 2024.webp"
   },
   {
     id: "t-taimado-merlot-2024",
@@ -65,7 +65,7 @@ const PRODUCTS = [
     origin: "Vista Flores, Valle de Uco, Mendoza",
     description: "Merlot ligero y fluido, con notas de frutos rojos y un toque herbal. Muy fácil de tomar.",
     price: 11100,
-    image: "images/Taimado Merlot 2024.jpg"
+    image: "fotos_botellas/Taimado Merlot 2024.webp"
   },
   {
     id: "t-alma-de-rey-malbec-2019",
@@ -75,7 +75,7 @@ const PRODUCTS = [
     origin: "Calingasta, San Juan",
     description: "Malbec joven y expresivo, con fruta roja y un final suave. Perfecto para todos los días.",
     price: 8600,
-    image: "images/Alma de Rey Malbec 2019.jpg"
+    image: "fotos_botellas/Alma de Rey Malbec 2019.webp"
   },
   {
     id: "t-yeta-tannat-malbec-2017",
@@ -85,7 +85,7 @@ const PRODUCTS = [
     origin: "Valle Rupestre, Valles Calchaquíes, Salta",
     description: "88% Tannat 12% Malbec. Tinto intenso con fruta marcada y madera equilibrada. Producción limitada de 893 botellas.",
     price: 18000,
-    image: "images/Yeta Tannat Malbec 2017.jpg"
+    image: "fotos_botellas/Yeta Tannat Malbec 2017.webp"
   },
   {
     id: "t-yeta-malbec-cabernet-sauvignon",
@@ -95,7 +95,7 @@ const PRODUCTS = [
     origin: "Valle Rupestre, Valles Calchaquíes, Salta",
     description: "95% Malbec 5% Cabernet Sauvignon. Blend potente y fresco, con fruta negra y un perfil típico del norte. Ideal para quienes buscan vinos con carácter.",
     price: 18000,
-    image: "images/Yeta Malbec Cabernet Sauvignon.jpg"
+    image: "fotos_botellas/Yeta Malbec Cabernet Sauvignon.webp"
   },
   {
     id: "t-yeta-merlot-malbec-2018",
@@ -105,7 +105,7 @@ const PRODUCTS = [
     origin: "Valle Rupestre, Valles Calchaquíes, Salta",
     description: "95% Merlot 5% Malbec. Blend fresco y frutado, que combina la suavidad del Merlot con la estructura del Malbec. Producción limitada de 1743 botellas.",
     price: 18000,
-    image: "images/Yeta Merlot Malbec 2018.jpg"
+    image: "fotos_botellas/Yeta Merlot Malbec 2018.webp"
   },
   {
     id: "t-dos-cauces-malbec-2025",
@@ -115,7 +115,7 @@ const PRODUCTS = [
     origin: "Las Compuertas, Luján de Cuyo, Mendoza",
     description: "Malbec fresco y frutal, redondo y equilibrado.  Con una crianza pensada para mantener la pureza de la fruta.",
     price: 11000,
-    image: "images/Dos Cauces Malbec 2025.jpg"
+    image: "fotos_botellas/Dos Cauces Malbec 2025.webp"
   },
   {
     id: "t-kuntur-cabernet-franc-reserva-2025",
@@ -125,7 +125,7 @@ const PRODUCTS = [
     origin: "Tolombón, Valle de Cafayate, Salta",
     description: "Crianza en barrica de roble. Solo 300 botellas. Posee notas a fruta negra, ciruela pasa y dulce de grosella. Vino con gran personalidad y sin llegar a ser muy astringente, resultando muy agradable al paladar.",
     price: 18000,
-    image: "images/Kuntur Cabernet Franc Reserva 2025.jpg"
+    image: "fotos_botellas/Kuntur Cabernet Franc Reserva 2025.webp"
   },
   {
     id: "t-kuntur-malbec-reserva-2025",
@@ -135,7 +135,7 @@ const PRODUCTS = [
     origin: "Tolombón, Valle de Cafayate, Salta",
     description: "Crianza en barrica de roble. Solo 300 botellas. Valorado por su suavidad, notas de frutos rojos y sutil toque de roble. Redondo y de baja astringencia, lo que lo hace muy fácil y agradable de beber.",
     price: 18000,
-    image: "images/Kuntur Malbec Reserva 2025.jpg"
+    image: "fotos_botellas/Kuntur Malbec Reserva 2025.webp"
   },
   {
     id: "t-kuntur-tannat-reserva-2024",
@@ -145,7 +145,7 @@ const PRODUCTS = [
     origin: "Tolombón, Valle de Cafayate, Salta",
     description: "Crianza en barrica de roble durante 11 meses. Solo 300 botellas. Destaca por ser una expresión de altura, ofreciendo una estructura firme y tánica característica de la cepa, pero con la elegancia y frescura propias del terroir norteño.",
     price: 18000,
-    image: "images/Kuntur Tannat Reserva 2024.jpg"
+    image: "fotos_botellas/Kuntur Tannat Reserva 2024.webp"
   },
   {
     id: "t-infernales-malbec-2023",
@@ -155,7 +155,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Malbec con buena estructura y taninos suaves. Crianza en roble francés y huevos de concreto.",
     price: 19000,
-    image: "images/Infernales Malbec 2023.jpg"
+    image: "fotos_botellas/Infernales Malbec 2023.webp"
   },
   {
     id: "t-cordero-con-piel-de-lobo-2025",
@@ -165,7 +165,7 @@ const PRODUCTS = [
     origin: "Mendoza",
     description: "Malbec joven, frutado y fresco. Muy fácil de tomar, ideal para todos los días.",
     price: 6200,
-    image: "images/Cordero con Piel de Lobo 2025.jpg"
+    image: "fotos_botellas/Cordero con Piel de Lobo 2025.webp"
   },
   {
     id: "t-naiara-malbec-reserva-2017",
@@ -175,7 +175,7 @@ const PRODUCTS = [
     origin: "Valle de Uco, Mendoza",
     description: "Malbec con paso por roble, cuerpo medio a alto y taninos sedosos. Complejo y equilibrado.",
     price: 13500,
-    image: "images/Naiara Malbec Reserva 2017.jpg"
+    image: "fotos_botellas/Naiara Malbec Reserva 2017.webp"
   },
   {
     id: "t-pannunzio-reserva-malbec-2017",
@@ -185,7 +185,7 @@ const PRODUCTS = [
     origin: "Barancas, Maipú, Mendoza",
     description: "Cuerpo medio a estructurado, se caracteriza por su jugosidad y sabores frutales definidos. Generalmente criado en barricas de roble francés y americano, lo que aporta complejidad sin tapar la fruta.",
     price: 13700,
-    image: "images/Pannunzio Reserva Malbec 2017.jpg"
+    image: "fotos_botellas/Pannunzio Reserva Malbec 2017.webp"
   },
   {
     id: "t-piloto-de-prueba-selecci-n-de-barricas-b",
@@ -195,7 +195,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "50% Malbec 25% Cabernet Franc 25% Tannat. Ofrece una estructura tánica firme, frescura y aromas a frutos rojos, destacándose como un vino profundo y de gran carácter de altura.",
     price: 24300,
-    image: "images/Piloto de Prueba Selección de Barricas Blend 2020.jpg"
+    image: "fotos_botellas/Piloto de Prueba Selección de Barricas Blend 2020.webp"
   },
   {
     id: "t-gualiama-malbec-2020",
@@ -205,7 +205,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate,Salta",
     description: "Estacionado en barricas de roble francés. OAK AGED (con paso por madera). Se destaca por su intensidad y frutosidad madura.",
     price: 14800,
-    image: "images/Gualiama Malbec 2020.jpg"
+    image: "fotos_botellas/Gualiama Malbec 2020.webp"
   },
   {
     id: "t-prelatura-reserva-malbec-2017",
@@ -215,7 +215,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Es un vino reconocido por su intensidad y equilibrio, típico de los Malbecs de guarda, con una muy buena relación precio-calidad. al menos 9-12 meses en barrica. taninos marcados pero equilibrados.",
     price: 11700,
-    image: "images/Prelatura Reserva Malbec 2017.jpg"
+    image: "fotos_botellas/Prelatura Reserva Malbec 2017.webp"
   },
   {
     id: "t-los-pasos-malbec-2020",
@@ -225,7 +225,7 @@ const PRODUCTS = [
     origin: "Agrelo, Mendoza",
     description: "Malbec joven, ligero y frutal. Suave y fresco, ideal para todos los días.",
     price: 7500,
-    image: "images/Los Pasos Malbec 2020.jpg"
+    image: "fotos_botellas/Los Pasos Malbec 2020.webp"
   },
   {
     id: "t-a-pleno-sol-colecci-n-quinquela-2017-red",
@@ -235,7 +235,7 @@ const PRODUCTS = [
     origin: "Valle de Famatina, La Rioja",
     description: "50% Malbec 50% Bonarda. 12 meses en barrica de roble. Estructura equilibrada y taninos suaves, es un vino versátil. Este blend ha sumado reconocimientos internacionales.",
     price: 15800,
-    image: "images/A Pleno Sol Colección Quinquela 2017 Red Blend.jpg"
+    image: "fotos_botellas/A Pleno Sol Colección Quinquela 2017 Red Blend.webp"
   },
   {
     id: "t-motivo-de-puerto-colecci-n-quinquela-201",
@@ -245,7 +245,7 @@ const PRODUCTS = [
     origin: "Valle de Famatina, La Rioja",
     description: "50% Malbec 50% Cabernet Sauvignon. 12 meses en barrica de roble. La revista Wine Enthusiast le otorgó 90 puntos a la cosecha 2018, destacando su calidad y la excelente expresión del blend.",
     price: 15800,
-    image: "images/Motivo de Puerto Colección Quinquela 2018 Red Blend.jpg"
+    image: "fotos_botellas/Motivo de Puerto Colección Quinquela 2018 Red Blend.webp"
   },
   {
     id: "t-veleros-reunidos-colecci-n-quinquela-201",
@@ -255,7 +255,7 @@ const PRODUCTS = [
     origin: "Valle de Famatina, La Rioja",
     description: "50% Malbec 50% Syrah. 12 meses en barrica de roble. Se destaca su entrada suave y fresca. Los taninos son dulces, redondos y amables, con un cuerpo medio y un final prolongado y equilibrado.",
     price: 15800,
-    image: "images/Veleros Reunidos Colección Quinquela 2019 Red Blend.jpg"
+    image: "fotos_botellas/Veleros Reunidos Colección Quinquela 2019 Red Blend.webp"
   },
   {
     id: "t-san-pedro-de-yacochuya-2020",
@@ -265,7 +265,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Es un blend dominado por Malbec con toque de Cabernet Sauvignon, con una crianza de 12 a 15 meses en barricas de roble francés. Entrada dulce, acidez equilibrada, gran cuerpo y volumen.",
     price: 23300,
-    image: "images/San Pedro de Yacochuya 2020.jpg"
+    image: "fotos_botellas/San Pedro de Yacochuya 2020.webp"
   },
   // ─────────────────────────────────────────────
   // VINOS BLANCOS
@@ -278,7 +278,7 @@ const PRODUCTS = [
     origin: "Cafayate, Salta",
     description: "85% Torrontés 15% Riesling. Entrada envolvente con una acidez equilibrada y un final fresco y mineral. Aromas florales combinados con notas de lichi, durazno y un toque cítrico.",
     price: 7500,
-    image: "images/Amalaya Blanco de Corte Torrontes Riesling 2024.jpg"
+    image: "fotos_botellas/Amalaya Blanco de Corte Torrontes Riesling 2024.webp"
   },
   {
     id: "b-antropo-blanc-de-blancas-2023",
@@ -288,7 +288,7 @@ const PRODUCTS = [
     origin: "Jujuy",
     description: "70% Torrontes 30% Chardonnay. Se valora el equilibrio logrado. El Chardonnay pasa 6 meses en barrica, aportando volumen, mientras que el Torrontés se elabora en acero inoxidable.",
     price: 16000,
-    image: "images/Antropo Blanc de blancas 2023.jpg"
+    image: "fotos_botellas/Antropo Blanc de blancas 2023.webp"
   },
   {
     id: "b-taimado-chardonnay-reserva-2024",
@@ -298,7 +298,7 @@ const PRODUCTS = [
     origin: "Vista Flores, Valle de Uco, Mendoza",
     description: "Se destaca por su perfil fresco, su paso equilibrado por barrica y su acidez vibrante.  Es un vino seco y de cuerpo medio que equilibra muy bien la untuosidad de la crianza con una acidez marcada.",
     price: 13000,
-    image: "images/Taimado Chardonnay Reserva 2024.jpg"
+    image: "fotos_botellas/Taimado Chardonnay Reserva 2024.webp"
   },
   {
     id: "b-taimado-torront-s-2024",
@@ -308,7 +308,7 @@ const PRODUCTS = [
     origin: "Vista Flores, Valle de Uco, Mendoza",
     description: "Ofrece una expresión fresca, vibrante y muy equilibrada. Destaca por sus notas intensamente florales combinadas con matices cítricos y de frutas blancas con carozo.",
     price: 11500,
-    image: "images/Taimado Torrontés 2024.jpg"
+    image: "fotos_botellas/Taimado Torrontés 2024.webp"
   },
   {
     id: "b-expresion-dulce-de-altura-2022",
@@ -318,7 +318,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Blend blanco Moscatel, Torrontes y Riesling. Destaca por su aroma frutal, notas florales y una acidez equilibrada. Elogiado principalmente por su equilibrio entre dulzor y acidez.",
     price: 8000,
-    image: "images/Expresion Dulce de altura 2022.jpg"
+    image: "fotos_botellas/Expresion Dulce de altura 2022.webp"
   },
   {
     id: "b-los-muros-blanc-de-blancs-2022",
@@ -328,7 +328,7 @@ const PRODUCTS = [
     origin: "Los Chacayes, Tunuyán, Mendoza",
     description: "Parcelas selectas. 25% Chardonnay 25% Gewurztraminer 25% Sauvignon Blanc 25% Viognier. Tonos dorados y verdosos, aromas a limón y pomelo, acidez equilibrada con un final complejo debido a su 25% de fermentación y crianza en barrica de roble francés.",
     price: 18500,
-    image: "images/Los Muros Blanc de Blancs 2022.jpg"
+    image: "fotos_botellas/Los Muros Blanc de Blancs 2022.webp"
   },
   {
     id: "b-vallisto-gaucho-club-torrontes-2024",
@@ -338,7 +338,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Alta intensidad aromática.  Entrada fresca, frutal y vivaz. Ofrece una acidez cítrica refrescante y un final persistente.",
     price: 15500,
-    image: "images/Vallisto Gaucho Club Torrontes 2024.jpg"
+    image: "fotos_botellas/Vallisto Gaucho Club Torrontes 2024.webp"
   },
   {
     id: "b-viejas-blancas-vallisto-extremo-2024-ble",
@@ -348,7 +348,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Blend Sauvignon Blanc, Viognier y Chardonnay. Viñas más antiguas de uvas blancas. Sin filtrar para mantener estado puro y delicado.",
     price: 18000,
-    image: "images/Viejas Blancas Vallisto Extremo 2024 Blend.jpg"
+    image: "fotos_botellas/Viejas Blancas Vallisto Extremo 2024 Blend.webp"
   },
   {
     id: "b-cortaderas-torrontes-2023",
@@ -358,7 +358,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Se destaca por su perfil aromático floral y fresco. Es un vino ligero, expresivo y muy refrescante en boca.",
     price: 10900,
-    image: "images/Cortaderas Torrontes 2023.jpg"
+    image: "fotos_botellas/Cortaderas Torrontes 2023.webp"
   },
   // ─────────────────────────────────────────────
   // VINOS ROSADOS
@@ -371,7 +371,7 @@ const PRODUCTS = [
     origin: "Cafayate, Salta",
     description: "Rosado de Malbec fermentado en huevos de hormigón. 4 meses crianza en barricas de acacias.",
     price: 12700,
-    image: "images/Amber Rose Rosado 2024.jpg"
+    image: "fotos_botellas/Amber Rose Rosado 2024.webp"
   },
   {
     id: "r-rosado-de-malbec-2025",
@@ -381,7 +381,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Solo 627 botellas. Rosado de corte seco con un perfil fresco y versátil. De color fresa intenso y aromas frutales.",
     price: 10000,
-    image: "images/Mar de Vides Rosado de Malbec 2025.jpg"
+    image: "fotos_botellas/Rosado de Malbec 2025.webp"
   },
   {
     id: "r-taimado-rose-2025",
@@ -391,7 +391,7 @@ const PRODUCTS = [
     origin: "Valle de Uco, Mendoza",
     description: "Fresco, vibrante y frutado. Notas a frutos rojos frescos como frutilla o frambuesa. Acidez equilibrada y entrada suave en boca.",
     price: 12000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "r-cl-sico-rosado-2024",
@@ -401,7 +401,7 @@ const PRODUCTS = [
     origin: "La Rioja",
     description: "Fresco y elegante. Corte de 50% Syrah y 50% Viognier. Buen balance y complejidad. Acidez equilibrada que lo hace muy agradable y de final persistente.",
     price: 10500,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "r-malbec-ros-2023",
@@ -411,7 +411,7 @@ const PRODUCTS = [
     origin: "Las Compuertas, Luján de Cuyo, Mendoza",
     description: "Fresco y elegante. Se destaca la frescura de la uva, resalta por su color sutil, aromas a frutos rojos y flores, y un excelente equilibrio en boca.",
     price: 12500,
-    image: "images/Malbec Rosé 2023.jpg"
+    image: "fotos_botellas/Malbec Rosé 2023.webp"
   },
   {
     id: "r-mar-de-vides-rosado-de-malbec-2025",
@@ -421,7 +421,7 @@ const PRODUCTS = [
     origin: "Tolombón, Valle de Cafayate, Salta",
     description: "Crianza en barrica de roble. Solo 600 botellas. Frescura vibrante, acidez equilibrada y perfil aromático a frutos rojos.",
     price: 15000,
-    image: "images/Mar de Vides Rosado de Malbec 2025.jpg"
+    image: "fotos_botellas/Mar de Vides Rosado de Malbec 2025.webp"
   },
   {
     id: "r-tierra-arida-rosado-dulce",
@@ -431,7 +431,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Rosado de Malbec artesanal. Atractivos colores rosa frambuesa, aromas a frutos rojos, dulzor y frescura.",
     price: 10000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   // ─────────────────────────────────────────────
   // ESPECIALES
@@ -444,7 +444,7 @@ const PRODUCTS = [
     origin: "Jujuy",
     description: "Syrah 80% Chardonnay 20%. Fresco y ligero. Destaca su perfil aromático frutal y su gran acidez natural.",
     price: 15200,
-    image: "images/Antropo Clarete 2025.jpg"
+    image: "fotos_botellas/Antropo Clarete 2025.webp"
   },
   {
     id: "e-la-quebrada-moscato",
@@ -454,7 +454,7 @@ const PRODUCTS = [
     origin: "San Juan",
     description: "Es un vino dulce y generoso elaborado a partir de la uva Moscatel. Una bebida intensa, aromática y con el dulzor característico de la variedad de uva, pero con la particularidad de ofrecer un cuerpo más fuerte.",
     price: 6000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "e-tierra-arida-mistela-clasico",
@@ -464,7 +464,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Mistela artesanal. Se caracteriza por sus aromas a pasas de uva, higos negros y frutos maduros, ofreciendo una experiencia dulce y de gran persistencia.",
     price: 12000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "e-runa-craft-gin-london-dry",
@@ -474,7 +474,7 @@ const PRODUCTS = [
     origin: "Buenos Aires",
     description: "Original/Craft (con enebro, coriandro, jazmín, jengibre y canela). Más complejo, con notas cítricas, especiadas y florales.",
     price: 14000,
-    image: "images/Runa Craft Gin London Dry.jpg"
+    image: "fotos_botellas/Runa Craft Gin London Dry.webp"
   },
   {
     id: "e-runa-craft-gin-ar-ndanos",
@@ -484,7 +484,7 @@ const PRODUCTS = [
     origin: "Buenos Aires",
     description: "Frutal, equilibrado, con notas de frutos rojos y especias, cítricos y un toque dulce.",
     price: 15000,
-    image: "images/Runa Craft Gin Arándanos.jpg"
+    image: "fotos_botellas/Runa Craft Gin Arándanos.webp"
   },
   // ─────────────────────────────────────────────
   // ESPUMANTES
@@ -497,7 +497,7 @@ const PRODUCTS = [
     origin: "España",
     description: "Método tradicional. 70% Chardonnay combinada con Parellada y Xarel-lo. Destaca su cremosidad, burbuja fina y una crianza de más de 15 meses en botella.",
     price: 19000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "e-ars-collecta-blanc-de-blancs-reserva-202",
@@ -507,7 +507,7 @@ const PRODUCTS = [
     origin: "España",
     description: "Reserva ecológico Brut. Genial vínculo de tres varietales excepcionales (Chardonnay, Xarel-lo y Parellada) procedentes de tres tierras y zonas climáticas diferentes.",
     price: 28000,
-    image: "images/Ars Collecta Blanc de Blancs Reserva 2021 Cava.jpg"
+    image: "fotos_botellas/Ars Collecta Blanc de Blancs Reserva 2021 Cava.webp"
   },
   {
     id: "e-codorniu-zero",
@@ -517,7 +517,7 @@ const PRODUCTS = [
     origin: "España",
     description: "Free alcohol Uva Airen. Bebida carbonatada a base de vino desalcoholizado.",
     price: 15000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   // ─────────────────────────────────────────────
   // OFERTA / PROMOCIONES
@@ -530,7 +530,7 @@ const PRODUCTS = [
     origin: "Animaná, Salta",
     description: "Malbec joven de altura, muy frutado y expresivo, con un final vivaz y amable.",
     price: 6000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-acialba-cabernet-sauvignon",
@@ -540,7 +540,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Cabernet frutado y elegante, con buena estructura y un final equilibrado. Ideal para quienes buscan un tinto amable y expresivo.",
     price: 6000,
-    image: "images/Acialba Cabernet Sauvignon.jpg"
+    image: "fotos_botellas/Acialba Cabernet Sauvignon.webp"
   },
   {
     id: "o-obra-reserva-cabernet-franc-2023",
@@ -550,7 +550,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza.",
     description: "Este Cabernet Franc mantiene el clásico carácter herbal y especiado de la variedad con perfil fresco y elegante. Pasa por un tiempo de crianza en barricas de roble.",
     price: 9000,
-    image: "images/Obra Reserva Cabernet Franc 2023.jpg"
+    image: "fotos_botellas/Obra Reserva Cabernet Franc 2023.webp"
   },
   {
     id: "o-obra-reserva-malbec-2023",
@@ -560,7 +560,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza.",
     description: "Excelente equilibrio entre fruta y madera. Paso por barricas de roble que aportan notas tostadas sutiles sin opacar la fruta. Es un vino fácil de beber pero con la complejidad justa de un reserva.",
     price: 9000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-emblema-rosado-de-malbec-2024",
@@ -570,7 +570,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza.",
     description: "Destaca por su color salmón pálido y su perfil aromático a frutos rojos.  Entrada fresca, jugosa y frutada. Es redondo gracias al contacto con las borras finas que le otorgan una textura sedosa, con taninos leves y un final largo.",
     price: 7000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-acialba-rosado-tard-o",
@@ -580,7 +580,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Vino de aroma frutado y un dulzor que se vuelve intenso hacia el final. Características refrescantes y afrutadas.",
     price: 6500,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-caelum-chardonnay-2022",
@@ -590,7 +590,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "De color dorado con reflejos verdosos, presenta una nariz muy compleja que va de la lima a notas minerales pasando por frutas tropicales. Vino bien estructurado, fresco y complejo.",
     price: 13900,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-caelum-fiano-2024",
@@ -600,7 +600,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "Vino con reflejos dorados y verdes. Presenta aromas a flores blancas, especias y expresiones de mineralidad. Bien estructurado con un final limpio y fresco.",
     price: 13900,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-caelum-reserva-blend-blanco-2023",
@@ -610,7 +610,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "50% Fiano 45% Chardonnay 5% Sauvignon Blanc. Aromas a flores blancas y notas minerales que combina elegancia y estructura. Vino amable y fresco.",
     price: 17900,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-coplero-torrontes-2023",
@@ -620,7 +620,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Destaca por su gran frescura y su perfil aromático muy floral. Presenta una entrada amable. Aunque por aroma parece dulce, es un vino seco, fresco y de acidez equilibrada.",
     price: 5000,
-    image: "images/Coplero Torrontes 2023.jpg"
+    image: "fotos_botellas/Coplero Torrontes 2023.webp"
   },
   {
     id: "o-altobelli-torrontes-tardio-2023",
@@ -630,7 +630,7 @@ const PRODUCTS = [
     origin: "Animaná, Salta",
     description: "Vino dulce y refrescante con una notable concentración de aromas frutales y florales propios de la cepa.",
     price: 10500,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-gata-flora-torrontes-2025",
@@ -640,7 +640,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Reconocido por su perfil fresco, aromático y de entrada levemente dulce con una acidez equilibrada.",
     price: 4000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-finca-humanao-torrontes-375cc",
@@ -650,7 +650,7 @@ const PRODUCTS = [
     origin: "Molinos, Salta",
     description: "Vino de cepas cultivadas en el Valle de Molinos, 2.230 mts. De altura, lo que le dan un sabor y aroma característico.",
     price: 3400,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-finca-humanao-malbec-375cc",
@@ -660,7 +660,7 @@ const PRODUCTS = [
     origin: "Molinos, Salta",
     description: "Malbec intenso y frutado, con taninos dulces y un final persistente.",
     price: 3400,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-maria-handcraft-brut",
@@ -670,7 +670,7 @@ const PRODUCTS = [
     origin: "Mendoza",
     description: "80% Pinot Noir 20% Chardonnay. Fresco, de color rosa muy pálido.",
     price: 10000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
   {
     id: "o-maria-handcraft-extra-brut",
@@ -680,6 +680,6 @@ const PRODUCTS = [
     origin: "Mendoza",
     description: "80% Chardonnay 20% Pinot Noir. Ofrece notas de manzana verde, levadura y una acidez elegante.",
     price: 10000,
-    image: "images/logo_frida.jpg"
+    image: "fotos_botellas/logo_frida.webp"
   },
 ];
