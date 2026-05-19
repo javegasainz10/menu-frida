@@ -391,7 +391,7 @@ const PRODUCTS = [
     origin: "Valle de Uco, Mendoza",
     description: "Fresco, vibrante y frutado. Notas a frutos rojos frescos como frutilla o frambuesa. Acidez equilibrada y entrada suave en boca.",
     price: 12000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Taimado Rose 2025.webp"
   },
   {
     id: "r-cl-sico-rosado-2024",
@@ -401,7 +401,7 @@ const PRODUCTS = [
     origin: "La Rioja",
     description: "Fresco y elegante. Corte de 50% Syrah y 50% Viognier. Buen balance y complejidad. Acidez equilibrada que lo hace muy agradable y de final persistente.",
     price: 10500,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Clásico Rosado 2024.webp"
   },
   {
     id: "r-malbec-ros-2023",
@@ -431,7 +431,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Rosado de Malbec artesanal. Atractivos colores rosa frambuesa, aromas a frutos rojos, dulzor y frescura.",
     price: 10000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Tierra Arida Rosado Dulce.webp"
   },
   // ─────────────────────────────────────────────
   // ESPECIALES
@@ -454,7 +454,7 @@ const PRODUCTS = [
     origin: "San Juan",
     description: "Es un vino dulce y generoso elaborado a partir de la uva Moscatel. Una bebida intensa, aromática y con el dulzor característico de la variedad de uva, pero con la particularidad de ofrecer un cuerpo más fuerte.",
     price: 6000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/La Quebrada Moscato.webp"
   },
   {
     id: "e-tierra-arida-mistela-clasico",
@@ -464,7 +464,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Salta",
     description: "Mistela artesanal. Se caracteriza por sus aromas a pasas de uva, higos negros y frutos maduros, ofreciendo una experiencia dulce y de gran persistencia.",
     price: 12000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Tierra Arida Mistela Clasico.webp"
   },
   {
     id: "e-runa-craft-gin-london-dry",
@@ -497,7 +497,7 @@ const PRODUCTS = [
     origin: "España",
     description: "Método tradicional. 70% Chardonnay combinada con Parellada y Xarel-lo. Destaca su cremosidad, burbuja fina y una crianza de más de 15 meses en botella.",
     price: 19000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Anna Blanc de Blancas Cava Brut.webp"
   },
   {
     id: "e-ars-collecta-blanc-de-blancs-reserva-202",
@@ -517,7 +517,7 @@ const PRODUCTS = [
     origin: "España",
     description: "Free alcohol Uva Airen. Bebida carbonatada a base de vino desalcoholizado.",
     price: 15000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Codorniu Zero.webp"
   },
   // ─────────────────────────────────────────────
   // OFERTA / PROMOCIONES
@@ -530,7 +530,7 @@ const PRODUCTS = [
     origin: "Animaná, Salta",
     description: "Malbec joven de altura, muy frutado y expresivo, con un final vivaz y amable.",
     price: 6000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Altobelli Malbec.webp"
   },
   {
     id: "o-acialba-cabernet-sauvignon",
@@ -560,7 +560,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza.",
     description: "Excelente equilibrio entre fruta y madera. Paso por barricas de roble que aportan notas tostadas sutiles sin opacar la fruta. Es un vino fácil de beber pero con la complejidad justa de un reserva.",
     price: 9000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Obra Reserva Malbec 2023.webp"
   },
   {
     id: "o-emblema-rosado-de-malbec-2024",
@@ -570,7 +570,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza.",
     description: "Destaca por su color salmón pálido y su perfil aromático a frutos rojos.  Entrada fresca, jugosa y frutada. Es redondo gracias al contacto con las borras finas que le otorgan una textura sedosa, con taninos leves y un final largo.",
     price: 7000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Emblema Rosado de Malbec 2024.webp"
   },
   {
     id: "o-acialba-rosado-tard-o",
@@ -580,7 +580,7 @@ const PRODUCTS = [
     origin: "Valles Calchaquíes, Catamarca",
     description: "Vino de aroma frutado y un dulzor que se vuelve intenso hacia el final. Características refrescantes y afrutadas.",
     price: 6500,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Acialba Rosado Tardío.webp"
   },
   {
     id: "o-caelum-chardonnay-2022",
@@ -590,7 +590,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "De color dorado con reflejos verdosos, presenta una nariz muy compleja que va de la lima a notas minerales pasando por frutas tropicales. Vino bien estructurado, fresco y complejo.",
     price: 13900,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Caelum Chardonnay 2022.webp"
   },
   {
     id: "o-caelum-fiano-2024",
@@ -600,7 +600,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "Vino con reflejos dorados y verdes. Presenta aromas a flores blancas, especias y expresiones de mineralidad. Bien estructurado con un final limpio y fresco.",
     price: 13900,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Caelum Fiano 2024.webp"
   },
   {
     id: "o-caelum-reserva-blend-blanco-2023",
@@ -610,7 +610,7 @@ const PRODUCTS = [
     origin: "Agrelo, Luján de Cuyo, Mendoza",
     description: "50% Fiano 45% Chardonnay 5% Sauvignon Blanc. Aromas a flores blancas y notas minerales que combina elegancia y estructura. Vino amable y fresco.",
     price: 17900,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Caelum Reserva Blend Blanco 2023.webp"
   },
   {
     id: "o-coplero-torrontes-2023",
@@ -630,7 +630,7 @@ const PRODUCTS = [
     origin: "Animaná, Salta",
     description: "Vino dulce y refrescante con una notable concentración de aromas frutales y florales propios de la cepa.",
     price: 10500,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Altobelli Torrontes Tardio 2023.webp"
   },
   {
     id: "o-gata-flora-torrontes-2025",
@@ -640,7 +640,7 @@ const PRODUCTS = [
     origin: "Valle de Cafayate, Salta",
     description: "Reconocido por su perfil fresco, aromático y de entrada levemente dulce con una acidez equilibrada.",
     price: 4000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Gata Flora Torrontes 2025.webp"
   },
   {
     id: "o-finca-humanao-torrontes-375cc",
@@ -650,7 +650,7 @@ const PRODUCTS = [
     origin: "Molinos, Salta",
     description: "Vino de cepas cultivadas en el Valle de Molinos, 2.230 mts. De altura, lo que le dan un sabor y aroma característico.",
     price: 3400,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Finca Humanao Torrontes 375cc.webp"
   },
   {
     id: "o-finca-humanao-malbec-375cc",
@@ -660,7 +660,7 @@ const PRODUCTS = [
     origin: "Molinos, Salta",
     description: "Malbec intenso y frutado, con taninos dulces y un final persistente.",
     price: 3400,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Finca Humanao Malbec 375cc.webp"
   },
   {
     id: "o-maria-handcraft-brut",
@@ -670,7 +670,7 @@ const PRODUCTS = [
     origin: "Mendoza",
     description: "80% Pinot Noir 20% Chardonnay. Fresco, de color rosa muy pálido.",
     price: 10000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Maria Handcraft Brut.webp"
   },
   {
     id: "o-maria-handcraft-extra-brut",
@@ -680,6 +680,6 @@ const PRODUCTS = [
     origin: "Mendoza",
     description: "80% Chardonnay 20% Pinot Noir. Ofrece notas de manzana verde, levadura y una acidez elegante.",
     price: 10000,
-    image: "fotos_botellas/logo_frida.webp"
+    image: "fotos_botellas/Maria Handcraft Extra Brut.webp"
   },
 ];
