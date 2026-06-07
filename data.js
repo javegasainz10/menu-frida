@@ -673,7 +673,7 @@ const PRODUCTS = [
     origin: "Salta",
     description: "Aroma intenso y color profundo. Ideal para realzar carnes, guisos, vegetales y preparaciones con un toque cálido y ahumado. Condimentos de su cocina.",
     price: 4600,
-    image: "fotos_botellas/Pimentón.jpg"
+    image: "fotos_botellas/pimenton.jpg"
   },
   {
     id: "g-cafe-turco",
@@ -683,7 +683,7 @@ const PRODUCTS = [
     origin: "Salta",
     description: "Café molido muy fino, de sabor intenso y textura tradicional. Ideal para quienes disfrutan del ritual y el carácter del café turco auténtico.",
     price: 18000,
-    image: "fotos_botellas/Café Turco.jpg"
+    image: "fotos_botellas/cafe_turco.jpg"
   },
   {
     id: "g-cafe-turco-con-cardamomo",
@@ -693,7 +693,7 @@ const PRODUCTS = [
     origin: "Salta",
     description: "Café turco aromatizado con cardamomo. Fragante, especiado y elegante, una mezcla clásica de Medio Oriente.",
     price: 11100,
-    image: "fotos_botellas/Café Turco con Cardamomo.jpg"
+    image: "fotos_botellas/cafe_turco_con_cardamomo.jpg"
   },
   {
     id: "g-zaatar",
