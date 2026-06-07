@@ -28,16 +28,6 @@ const PRODUCTS = [
     image: "fotos_botellas/The Thorn Reserva Malbec 2024.webp"
   },
   {
-    id: "t-antropo-blend-de-tintas-2024",
-    category: "tintos",
-    bodega: "Antropo Wines",
-    name: "Antropo Blend de Tintas 2024",
-    origin: "Jujuy",
-    description: "Blend Cabernet Franc y Cabernet Sauvignon de la Quebrada de Humahuaca, con crianza parcial en roble. Combina frescura y equilibrio. Notas de fruta roja y un toque de roble que aporta suavidad.",
-    price: 16700,
-    image: "fotos_botellas/Antropo Blend de Tintas 2024.webp"
-  },
-  {
     id: "t-taimado-malbec-2023",
     category: "tintos",
     bodega: "Clos de los 7",
@@ -78,16 +68,6 @@ const PRODUCTS = [
     image: "fotos_botellas/Alma de Rey Malbec 2019.webp"
   },
   {
-    id: "t-yeta-tannat-malbec-2017",
-    category: "tintos",
-    bodega: "Domingo Molina",
-    name: "Yeta Tannat Malbec 2017",
-    origin: "Valle Rupestre, Valles Calchaquíes, Salta",
-    description: "88% Tannat 12% Malbec. Tinto intenso con fruta marcada y madera equilibrada. Producción limitada de 893 botellas.",
-    price: 18000,
-    image: "fotos_botellas/Yeta Tannat Malbec 2017.webp"
-  },
-  {
     id: "t-yeta-malbec-cabernet-sauvignon",
     category: "tintos",
     bodega: "Domingo Molina",
@@ -96,16 +76,6 @@ const PRODUCTS = [
     description: "95% Malbec 5% Cabernet Sauvignon. Blend potente y fresco, con fruta negra y un perfil típico del norte. Ideal para quienes buscan vinos con carácter.",
     price: 18000,
     image: "fotos_botellas/Yeta Malbec Cabernet Sauvignon.webp"
-  },
-  {
-    id: "t-yeta-merlot-malbec-2018",
-    category: "tintos",
-    bodega: "Domingo Molina",
-    name: "Yeta Merlot Malbec 2018",
-    origin: "Valle Rupestre, Valles Calchaquíes, Salta",
-    description: "95% Merlot 5% Malbec. Blend fresco y frutado, que combina la suavidad del Merlot con la estructura del Malbec. Producción limitada de 1743 botellas.",
-    price: 18000,
-    image: "fotos_botellas/Yeta Merlot Malbec 2018.webp"
   },
   {
     id: "t-dos-cauces-malbec-2025",
@@ -633,16 +603,6 @@ const PRODUCTS = [
     image: "fotos_botellas/Altobelli Torrontes Tardio 2023.webp"
   },
   {
-    id: "o-gata-flora-torrontes-2025",
-    category: "ofertas",
-    bodega: "Vasija Secreta",
-    name: "Gata Flora Torrontes 2025",
-    origin: "Valle de Cafayate, Salta",
-    description: "Reconocido por su perfil fresco, aromático y de entrada levemente dulce con una acidez equilibrada.",
-    price: 4000,
-    image: "fotos_botellas/Gata Flora Torrontes 2025.webp"
-  },
-  {
     id: "o-finca-humanao-torrontes-375cc",
     category: "ofertas",
     bodega: "Humanao",
@@ -663,16 +623,6 @@ const PRODUCTS = [
     image: "fotos_botellas/Finca Humanao Malbec 375cc.webp"
   },
   {
-    id: "o-maria-handcraft-brut",
-    category: "ofertas",
-    bodega: "Codorniu",
-    name: "Maria Handcraft Brut",
-    origin: "Mendoza",
-    description: "80% Pinot Noir 20% Chardonnay. Fresco, de color rosa muy pálido.",
-    price: 10000,
-    image: "fotos_botellas/Maria Handcraft Brut.webp"
-  },
-  {
     id: "o-maria-handcraft-extra-brut",
     category: "ofertas",
     bodega: "Codorniu",
@@ -682,4 +632,107 @@ const PRODUCTS = [
     price: 10000,
     image: "fotos_botellas/Maria Handcraft Extra Brut.webp"
   },
+  // ─────────────────────────────────────────────
+  // GOURMET & HOGAR
+  // ─────────────────────────────────────────────
+  {
+    id: "g-mermelada-naranja-con-malbec",
+    category: "gourmet",
+    bodega: "Ampin Sabores Salteños",
+    name: "Mermelada Naranja con Malbec",
+    origin: "Salta",
+    description: "Wine Jam 250 gr. Una combinación artesanal de naranja y Malbec, con sabor intenso y equilibrado. Ideal para acompañar quesos, panes y postres.",
+    price: 6200,
+    image: "fotos_botellas/Mermelada Naranja con Malbec.jpg"
+  },
+  {
+    id: "g-sumac",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Sumac",
+    origin: "Salta",
+    description: "Condimento ácido y aromático, típico de la cocina árabe. Aporta frescura y un toque cítrico natural a carnes, ensaladas y vegetales. Condimentos de su cocina.",
+    price: 6700,
+    image: "fotos_botellas/Sumac.jpg"
+  },
+  {
+    id: "g-baharat",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Baharat",
+    origin: "Salta",
+    description: "Mezcla clásica de especias de Medio Oriente. Cálida, profunda y versátil para realzar carnes, guisos, arroces y vegetales. Condimentos de su cocina.",
+    price: 5800,
+    image: "fotos_botellas/Baharat.jpg"
+  },
+  {
+    id: "g-pimenton",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Pimentón",
+    origin: "Salta",
+    description: "Aroma intenso y color profundo. Ideal para realzar carnes, guisos, vegetales y preparaciones con un toque cálido y ahumado. Condimentos de su cocina.",
+    price: 4600,
+    image: "fotos_botellas/Pimentón.jpg"
+  },
+  {
+    id: "g-cafe-turco",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Café Turco",
+    origin: "Salta",
+    description: "Café molido muy fino, de sabor intenso y textura tradicional. Ideal para quienes disfrutan del ritual y el carácter del café turco auténtico.",
+    price: 18000,
+    image: "fotos_botellas/Café Turco.jpg"
+  },
+  {
+    id: "g-cafe-turco-con-cardamomo",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Café Turco con Cardamomo",
+    origin: "Salta",
+    description: "Café turco aromatizado con cardamomo. Fragante, especiado y elegante, una mezcla clásica de Medio Oriente.",
+    price: 11100,
+    image: "fotos_botellas/Café Turco con Cardamomo.jpg"
+  },
+  {
+    id: "g-zaatar",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Zaatar",
+    origin: "Salta",
+    description: "Mezcla de especias típica de Medio Oriente. Aporta notas herbales, cítricas y tostadas a panes, carnes, vegetales y dips. Condimentos de su cocina.",
+    price: 6000,
+    image: "fotos_botellas/Zaatar.jpg"
+  },
+  {
+    id: "g-pimienta-negra",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Pimienta Negra",
+    origin: "Salta",
+    description: "Pimienta negra molida fina, de aroma intenso y sabor picante equilibrado. Un básico indispensable para realzar cualquier preparación. Condimentos de su cocina.",
+    price: 5500,
+    image: "fotos_botellas/Pimienta Negra.jpg"
+  },
+  {
+    id: "g-menta-libanesa",
+    category: "gourmet",
+    bodega: "Cocina Privada El Turco",
+    name: "Menta Libanesa",
+    origin: "Salta",
+    description: "Hierba aromática y fresca, típica de la cocina del Líbano. Ideal para ensaladas, salsas, carnes y preparaciones que buscan un toque herbal más intenso y perfumado. Condimentos de su cocina.",
+    price: 5600,
+    image: "fotos_botellas/Menta Libanesa.jpg"
+  },
+  {
+    id: "g-estante-vinoteca-de-pared",
+    category: "gourmet",
+    bodega: "Ariel Herrería",
+    name: "Estante Vinoteca de pared",
+    origin: "Salta",
+    description: "Estante vertical de hierro cuadrado, minimalista y resistente, ideal para exhibir 4 botellas de vinos. Permite colocar las botellas de forma segura y elegante, sumando diseño y practicidad a cualquier ambiente.",
+    price: 34000,
+    image: "fotos_botellas/Estante Vinoteca de pared.jpg"
+  }
 ];

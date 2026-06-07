@@ -29,7 +29,8 @@
     'rosados': { title: 'Vinos Rosados', subtitle: 'Frescos, expresivos y refrescantes' },
     'especiales': { title: 'Especiales', subtitle: 'Clarete, gin y propuestas diferentes' },
     'espumantes': { title: 'Espumantes', subtitle: 'Burbujas y cavas para acompañar tus momentos' },
-    'ofertas': { title: 'Ofertas y Promociones', subtitle: 'Precios especiales para vos' }
+    'ofertas': { title: 'Ofertas y Promociones', subtitle: 'Precios especiales para vos' },
+    'gourmet': { title: 'Gourmet & Hogar', subtitle: 'Sabores y detalles para tu casa.' }
   };
 
   function init() {
@@ -52,7 +53,7 @@
   }
 
   function updateCounts() {
-    const cats = ['tintos','blancos','rosados','especiales','espumantes','ofertas'];
+    const cats = ['tintos','blancos','rosados','especiales','espumantes','ofertas','gourmet'];
     cats.forEach(cat => {
       const el = document.getElementById('count-' + cat);
       if (el) el.textContent = PRODUCTS.filter(p => p.category === cat).length;
